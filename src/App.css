@@ -20,6 +20,8 @@
   background-color: #EDFBFF;
   width: 60%;
   height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .back-form {
@@ -44,7 +46,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  margin: 30px 0;
 }
 
 form {
@@ -103,6 +105,18 @@ button.clear {
 
 .fa-solid {
   margin-bottom: 15px;
+}
+
+.fa-pen-to-square::before {
+  color: rgb(91, 151, 0);
+}
+
+.fa-trash::before {
+  color: red;
+}
+
+.fa-trash i {
+  color: red;
 }
 
 .user-card {
